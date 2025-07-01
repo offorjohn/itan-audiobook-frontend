@@ -12,17 +12,12 @@ export async function POST(req: Request) {
   }
 
   try {
-<<<<<<< HEAD
-    const API_KEY = process.env.NEXT_PUBLIC_KIT_API_KEY!
-    const FORM_ID = process.env.NEXT_PUBLIC_KIT_FORM_ID!
-=======
 
 
     const API_KEY = process.env.NEXT_PUBLIC_KIT_API_KEY;
     const FORM_ID = process.env.NEXT_PUBLIC_KIT_FORM_ID;
 
 
->>>>>>> 32c8cf3 (added kit credentials)
 
     const response = await axios.post(
       `https://api.convertkit.com/v3/forms/${FORM_ID}/subscribe`,
