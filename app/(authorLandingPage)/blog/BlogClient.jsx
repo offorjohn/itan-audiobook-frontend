@@ -69,7 +69,7 @@ export default function BlogClient({ posts }) {
   return (
     <div className="max-w-6xl mx-auto px-4 py-12"><h1 className="text-4xl mb-10 text-center">
   <span className="font-bold">ITAN</span>{' '}
-  <span className="font-light">BLOG</span>
+  <span className="font-light">BLOG.</span>
 </h1>
 
       {/* Search */}
